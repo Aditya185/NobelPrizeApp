@@ -1,0 +1,31 @@
+
+<layout>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ui.Prize.PrizeFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/text_continent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More than One time Winners"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/text_continent"
+            android:id="@+id/continent_recycler"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+</layout>
